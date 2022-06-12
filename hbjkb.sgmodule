@@ -2,7 +2,7 @@
 
 [Script]
 
-淘宝比价 = type=http-response,requires-body=1,pattern=^https?:\/\/wyy-1253323744\.file\.myqcloud\.com\/hbjkm\/flts\/hstc.json,script-path=
+淘宝比价 = type=http-response,requires-body=1,pattern=^https?:\/\/wyy-1253323744\.file\.myqcloud\.com\/hbjkm\/flts\/hstc.json,script-path=https://raw.githubusercontent.com/capxax/iosipa/master/jkm.js
 
 [MITM]
 hostname = wyy-1253323744.file.myqcloud.com
