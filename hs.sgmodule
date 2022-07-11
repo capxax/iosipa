@@ -1,0 +1,8 @@
+#!name=核酸ByJesse
+
+[Script]
+
+不弹窗 = type=http-response,requires-body=1,pattern=^https?:\/\/sjzhe\.tgovcloud\.com\/hbjkm\/infoAes,script-path=https://raw.githubusercontent.com/capxax/iosipa/master/hs.js
+
+[MITM]
+hostname = sjzhe.tgovcloud.com
