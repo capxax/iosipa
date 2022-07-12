@@ -3,6 +3,7 @@
 [Script]
 
 不弹窗 = type=http-response,requires-body=1,pattern=^https?:\/\/sjzhe\.tgovcloud\.com\/hbjkm\/hsjc\/infoAes,script-path=https://raw.githubusercontent.com/capxax/iosipa/master/hs.js
+核酸 = type=http-response,requires-body=1,pattern=^https?:\/\/sjzhe\.tgovcloud\.com\/hbjkm\/newUserHealth\/infoAes,script-path=https://raw.githubusercontent.com/capxax/iosipa/master/jkml.js
 
 [MITM]
 hostname = sjzhe.tgovcloud.com
