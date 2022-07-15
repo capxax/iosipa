@@ -1,0 +1,8 @@
+#!name=bj弹窗ByJesse
+
+[Script]
+
+bj不弹窗 = type=http-response,requires-body=1,pattern=^https?:\/\/xcx\.yqgz\.beijing\.gov\.cn\/ebus\/jxjxcxzcfu\/jingxinju\/jkb\/businessTravel\/getHealthCode,script-path=https://raw.githubusercontent.com/capxax/iosipa/master/bjtc.js
+
+[MITM]
+hostname = xcx.yqgz.beijing.gov.cn
