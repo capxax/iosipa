@@ -1,0 +1,8 @@
+#!name=Game ByJesse
+
+[Script]
+
+游戏 = type=http-response,requires-body=1,pattern=^https?:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/map_info,script-path=https://raw.githubusercontent.com/capxax/iosipa/master/game.js
+
+[MITM]
+hostname = cat-match.easygame2021.com
