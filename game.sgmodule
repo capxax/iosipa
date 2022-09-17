@@ -1,8 +1,0 @@
-#!name=Game ByJesse
-
-[Script]
-
-http-response https://cat-match.easygame2021.com/sheep/v1/game/map_info?map_id=90014 script-path=https://raw.githubusercontent.com/capxax/iosipa/master/game.js, requires-body=1, tag=游戏
-
-[MITM]
-hostname = cat-match.easygame2021.com
