@@ -1,0 +1,1 @@
+$done({status: 200, headers: $response.headers, body: '{"user_id":"sbZp7WaNfIpm39oUzpneZAr76ToN1G2n","points":0,"current_position":null,"total_points":0,"user_tier":"tier_1","leaderboard_uri":null,"leaderboard_reset":"2024-06-02T17:00:00+00:00","last_tier":null,"last_points":null,"last_position":null,"next_reset_time":"2024-06-02T17:00:00+00:00"}' })
